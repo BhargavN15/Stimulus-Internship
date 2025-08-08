@@ -36,7 +36,7 @@ function handleSendMessage() {
   dotsTypingAnimation.style.display = "flex"
 
   setTimeout(function () {
-    generateBotReply(userMessage)
+    generateBotResponse(userMessage)
     dotsTypingAnimation.style.display = "none"
   }, 1000)
 }
