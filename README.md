@@ -45,3 +45,9 @@ The chatbot is built using **HTML**, **CSS**, and **JavaScript**. It includes:
 - [W3Schools](https://www.w3schools.com)  
 - [MDN Web Docs](https://developer.mozilla.org/en-US)  
 - [Git for Beginners (YouTube)](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
+
+---
+
+## Link
+
+-Click here to access the chatbot https://bhargavn15.github.io/Stimulus-Internship/
