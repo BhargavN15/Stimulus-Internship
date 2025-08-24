@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stimulus Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="chatWrapper">
+    <button id="chatToggle">💬 Chat</button>
+
+    <div id="chatContainer" class="chatContainer" style="display: none;">
+      <div class="chatHeader">Stimulus Assistant</div>
+
+      <div id="chatBox" class="chatBox">
+        <div id="typingIndicator" class="typingIndicator" style="display: none;">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="quickReplies"></div>
+
+      <div class="inputArea">
+        <input type="text" id="userInput" placeholder="Type a message..." />
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="knowledge.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
